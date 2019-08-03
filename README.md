@@ -3,7 +3,7 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/boilerz/eslint-config)
 ![David](https://img.shields.io/david/boilerz/eslint-config)
 
-Airbnb + typescript based eslint config.
+Airbnb + typescript + prettier aware based eslint config.
 
 ### Setup
 
@@ -16,4 +16,15 @@ npx install-peerdeps --dev @boilerz/eslint-config
 {
   "extends": "@boilerz/eslint-config"
 }
+```
+
+`.prettierrc` example:
+```json
+{
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all"
+}
+
 ```
