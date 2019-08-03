@@ -5,11 +5,13 @@
 
 > Airbnb + typescript + prettier aware based eslint config.
 
-### Setup
+### Install
 
 ```bash
 npx install-peerdeps --dev @boilerz/eslint-config
 ```
+
+### Usage
 
 `.eslintrc` example:
 ```json
