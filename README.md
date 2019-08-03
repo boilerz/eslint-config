@@ -3,7 +3,7 @@
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/boilerz/eslint-config)](https://www.npmjs.com/package/@boilerz/eslint-config)
 [![David](https://david-dm.org/boilerz/eslint-config/repo.svg)](https://david-dm.org/boilerz/eslint-config)
 
-Airbnb + typescript + prettier aware based eslint config.
+> Airbnb + typescript + prettier aware based eslint config.
 
 ### Setup
 
