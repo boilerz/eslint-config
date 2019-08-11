@@ -13,10 +13,18 @@ npx install-peerdeps --dev @boilerz/eslint-config
 
 ### Usage
 
-`.eslintrc` example:
+`.eslintrc` example for backend project:
 ```json
 {
   "extends": "@boilerz/eslint-config"
+}
+```
+
+Or for frontend ones:
+
+```json
+{
+  "extends": "@boilerz/eslint-config/frontend"
 }
 ```
 

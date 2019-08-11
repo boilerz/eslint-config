@@ -15,14 +15,13 @@ module.exports = {
     'react/jsx-filename-extension': 0
   },
   settings: {
-    react: {
-      'pragma': 'React',
-      'version': 'detect'
-    },
     'import/resolver': {
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx']
       }
     }
+  },
+  env: {
+    jest: true,
   }
 }
