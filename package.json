@@ -7,6 +7,9 @@
   "author": "momsse",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "test": "exit 0"
+  },
   "peerDependencies": {
     "eslint": "^5",
     "prettier": "^1",
