@@ -36,5 +36,11 @@ Or for frontend ones:
   "tabWidth": 2,
   "trailingComma": "all"
 }
+```
 
+### Release
+
+```bash
+yarn version
+yarn publish --access public
 ```
