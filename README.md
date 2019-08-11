@@ -1,7 +1,7 @@
 # @boilerz/eslint-config
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/boilerz/eslint-config)](https://www.npmjs.com/package/@boilerz/eslint-config)
-[![David](https://david-dm.org/boilerz/eslint-config/repo.svg)](https://david-dm.org/boilerz/eslint-config)
+[![David](https://david-dm.org/boilerz/eslint-config/repo.svg)](https://david-dm.org/boilerz/eslint-config) [![Greenkeeper badge](https://badges.greenkeeper.io/boilerz/eslint-config.svg)](https://greenkeeper.io/)
 
 > Airbnb + typescript + prettier aware based eslint config.
 
