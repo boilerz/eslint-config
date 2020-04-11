@@ -13,6 +13,7 @@ module.exports = {
   ],
   rules: {
     'react/jsx-filename-extension': 0,
+    'import/extensions': 0,
     '@typescript-eslint/ban-ts-ignore': 0,
   },
   settings: {
