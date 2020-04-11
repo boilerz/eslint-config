@@ -12,7 +12,8 @@ module.exports = {
     'plugin:prettier/recommended'
   ],
   rules: {
-    'react/jsx-filename-extension': 0
+    'react/jsx-filename-extension': 0,
+    '@typescript-eslint/ban-ts-ignore': 0,
   },
   settings: {
     'import/resolver': {
