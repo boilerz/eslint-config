@@ -17,13 +17,6 @@ module.exports = {
   rules: {
     'import/extensions': 0,
     '@typescript-eslint/ban-ts-ignore': 0,
-  },
-  settings: {
-    'import/resolver': {
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx']
-      }
-    },
     'import/order': [
       'error',
       {
@@ -36,6 +29,13 @@ module.exports = {
         'newlines-between': 'always'
       }
     ]
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      }
+    },
   },
   env: {
     jest: true,
