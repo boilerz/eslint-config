@@ -2,11 +2,12 @@ const config = require('./index');
 
 module.exports = {
   ...config,
-  settings: {
-    ...config.settings,
-    react: {
-      'pragma': 'React',
-      'version': 'detect'
-    },
+  extends: [
+    'airbnb',
+    ...config.extends.filter(config => config !== 'airbnb/base')
+  ],
+  rules: {
+    ...config.rules,
+    'react/jsx-filename-extension': 0,
   }
 }

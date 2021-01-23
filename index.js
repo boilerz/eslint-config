@@ -6,13 +6,15 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   extends: [
-    'airbnb',
+    'airbnb/base',
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:import/typescript',
   ],
   rules: {
-    'react/jsx-filename-extension': 0,
     'import/extensions': 0,
     '@typescript-eslint/ban-ts-ignore': 0,
   },
@@ -21,7 +23,19 @@ module.exports = {
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx']
       }
-    }
+    },
+    'import/order': [
+      'error',
+      {
+        pathGroups: [
+          { pattern: '@boilerz/**', group: 'internal', position: 'after' }
+        ],
+        pathGroupsExcludedImportTypes: ['builtin'],
+        groups: ['builtin', 'external', 'internal'],
+        alphabetize: { 'order': 'asc', 'caseInsensitive': true },
+        'newlines-between': 'always'
+      }
+    ]
   },
   env: {
     jest: true,
