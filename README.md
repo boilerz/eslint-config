@@ -1,7 +1,7 @@
 # @boilerz/eslint-config
 
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/boilerz/eslint-config)](https://www.npmjs.com/package/@boilerz/eslint-config)
-[![CircleCI](https://circleci.com/gh/boilerz/eslint-config/tree/master.svg?style=shield)](https://circleci.com/gh/boilerz/eslint-config/tree/master)
+[![GH CI Action](https://github.com/boilerz/eslint-config/workflows/CI/badge.svg)](https://github.com/boilerz/eslint-config/actions?query=workflow:CI)
 
 > Airbnb + typescript + prettier aware based eslint config.
 
