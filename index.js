@@ -8,14 +8,19 @@ module.exports = {
   extends: [
     'airbnb/base',
     'plugin:@typescript-eslint/recommended',
-    'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:import/typescript',
+    'prettier',
+    'prettier/@typescript-eslint',
+    'prettier/prettier',
   ],
   rules: {
     'import/extensions': 0,
+    /** @see https://github.com/typescript-eslint/typescript-eslint/blob/master/docs/getting-started/linting/FAQ.md#i-am-using-a-rule-from-eslint-core-and-it-doesnt-work-correctly-with-typescript-code */
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": 2,
     '@typescript-eslint/ban-ts-ignore': 0,
     'import/order': [
       'error',
