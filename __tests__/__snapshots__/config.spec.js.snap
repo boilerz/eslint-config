@@ -8,11 +8,13 @@ Object {
   "extends": Array [
     "airbnb/base",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/prettier",
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": Object {
@@ -24,6 +26,7 @@ Object {
   ],
   "rules": Object {
     "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/no-use-before-define": 2,
     "import/extensions": 0,
     "import/order": Array [
       "error",
@@ -50,6 +53,7 @@ Object {
         ],
       },
     ],
+    "no-use-before-define": "off",
   },
   "settings": Object {
     "import/resolver": Object {
@@ -74,11 +78,14 @@ Object {
   "extends": Array [
     "airbnb",
     "plugin:@typescript-eslint/recommended",
-    "prettier/@typescript-eslint",
     "plugin:prettier/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript",
+    "prettier",
+    "prettier/@typescript-eslint",
+    "prettier/prettier",
+    "prettier/react",
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": Object {
@@ -90,6 +97,7 @@ Object {
   ],
   "rules": Object {
     "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/no-use-before-define": 2,
     "import/extensions": 0,
     "import/order": Array [
       "error",
@@ -116,6 +124,7 @@ Object {
         ],
       },
     ],
+    "no-use-before-define": "off",
     "react/jsx-filename-extension": 0,
   },
   "settings": Object {
