@@ -26,6 +26,9 @@ Object {
   ],
   "rules": Object {
     "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/no-shadow": Array [
+      "error",
+    ],
     "@typescript-eslint/no-use-before-define": 2,
     "import/extensions": 0,
     "import/order": Array [
@@ -53,6 +56,7 @@ Object {
         ],
       },
     ],
+    "no-shadow": "off",
     "no-use-before-define": "off",
   },
   "settings": Object {
@@ -97,6 +101,9 @@ Object {
   ],
   "rules": Object {
     "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/no-shadow": Array [
+      "error",
+    ],
     "@typescript-eslint/no-use-before-define": 2,
     "import/extensions": 0,
     "import/order": Array [
@@ -124,6 +131,7 @@ Object {
         ],
       },
     ],
+    "no-shadow": "off",
     "no-use-before-define": "off",
     "react/jsx-filename-extension": 0,
   },
