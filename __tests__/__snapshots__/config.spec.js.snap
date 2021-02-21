@@ -69,6 +69,7 @@ Object {
           ".tsx",
         ],
       },
+      "typescript": Object {},
     },
   },
 }
@@ -145,6 +146,7 @@ Object {
           ".tsx",
         ],
       },
+      "typescript": Object {},
     },
   },
 }
