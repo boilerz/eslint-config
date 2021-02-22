@@ -7,14 +7,8 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   extends: [
     'airbnb/base',
-    'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
-    'plugin:import/errors',
-    'plugin:import/warnings',
-    'plugin:import/typescript',
     'prettier',
-    'prettier/@typescript-eslint',
-    'prettier/prettier',
   ],
   rules: {
     'import/extensions': 0,
