@@ -28,8 +28,5 @@ jobs:
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn
 
-      - name: Build output 🛠
-        run: yarn build
-
       - name: Run Tests ✅
         run: yarn test
