@@ -11,12 +11,12 @@
     "test": "jest --coverage"
   },
   "peerDependencies": {
-    "eslint": "^8.2.0",
+    "eslint": "^8.13.0",
     "prettier": "^2.5.1"
   },
   "devDependencies": {
     "@boilerz/jest-config": "^1.0.10",
-    "eslint": "^8.2.0",
+    "eslint": "^8.13.0",
     "jest": "^27.5.1",
     "prettier": "^2.5.1"
   },
