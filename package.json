@@ -15,7 +15,7 @@
     "prettier": "^2.6.2"
   },
   "devDependencies": {
-    "@boilerz/jest-config": "^1.0.14",
+    "@boilerz/jest-config": "^1.0.15",
     "eslint": "^8.14.0",
     "jest": "^28.0.3",
     "prettier": "^2.6.2"
