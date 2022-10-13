@@ -86,7 +86,7 @@ Object {
     "airbnb",
     "plugin:prettier/recommended",
     "prettier",
-    "prettier/react",
+    "prettier",
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": Object {

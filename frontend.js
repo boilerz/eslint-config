@@ -5,7 +5,7 @@ module.exports = {
   extends: [
     'airbnb',
     ...config.extends.filter(config => config !== 'airbnb/base'),
-    'prettier/react',
+    'prettier',
   ],
   rules: {
     ...config.rules,
