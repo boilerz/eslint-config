@@ -1,6 +1,6 @@
 {
   "name": "@boilerz/eslint-config",
-  "version": "2.0.122",
+  "version": "2.0.123",
   "description": "TS eslint-config",
   "main": "index.js",
   "repository": "git@github.com:boilerz/eslint-config.git",
